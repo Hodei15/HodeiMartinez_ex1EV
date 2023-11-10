@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/Azul"
+    tools:context=".DetallesActivity">
+
+    <!-- activity_detalles.xml -->
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/Azul"
+        tools:layout_editor_absoluteX="93dp"
+        tools:layout_editor_absoluteY="-74dp">
+
+        <ImageView
+            android:id="@+id/imgDetalles"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:scaleType="centerCrop"
+            android:contentDescription="@string/logoa"
+            android:src="@drawable/logo" />
+
+        <TextView
+            android:id="@+id/txtTituloDetalles"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/imgDetalles"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginBottom="16dp"
+            android:text="@string/Bilbao"
+            android:textColor="#FFFFFF"
+            android:textSize="24sp" />
+
+        <TextView
+            android:id="@+id/textView_puntuacion_detalle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/txtTituloDetalles"
+            android:layout_marginStart="16dp"
+            android:text="@string/Puntuacion"
+            android:textColor="#FFFFFF"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/txtNumPuntuacionDetalle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/imgDetalles"
+            android:layout_marginStart="10sp"
+            android:layout_marginTop="63sp"
+            android:layout_toEndOf="@+id/textView_puntuacion_detalle"
+            android:text="@string/contadorPuntuacion"
+            android:textColor="#FFFFFF"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/txtDescripcionDetalles"
+            android:layout_width="382dp"
+            android:layout_height="241dp"
+            android:layout_below="@id/textView_puntuacion_detalle"
+            android:layout_marginStart="16sp"
+            android:layout_marginTop="16sp"
+            android:layout_marginEnd="16sp"
+            android:layout_marginBottom="16sp"
+            android:text="@string/BilbaoIkusi"
+            android:textColor="#FFFFFF"
+            android:textSize="16sp" />
+
+        <Button
+            android:id="@+id/btnVolver"
+            android:layout_width="138sp"
+            android:layout_height="68sp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="35sp"
+            android:layout_marginEnd="237sp"
+            android:layout_marginBottom="60sp"
+            android:text="@string/Volver" />
+
+        <Button
+            android:id="@+id/btnPuntuar"
+            android:layout_width="138sp"
+            android:layout_height="68sp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="237sp"
+            android:layout_marginTop="96sp"
+            android:layout_marginEnd="35sp"
+            android:layout_marginBottom="60sp"
+            android:text="@string/Puntuar" />
+
+    </RelativeLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

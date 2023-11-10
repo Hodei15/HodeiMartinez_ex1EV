@@ -1,0 +1,274 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/Azul"
+    tools:context=".LugaresActivity">
+    <!-- LugaresActivity.xml -->
+    <!-- Bilbao -->
+    <RelativeLayout
+        android:id="@+id/relativeLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="16dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.026">
+
+        <ImageView
+            android:id="@+id/ImgBilbao"
+            android:layout_width="100sp"
+            android:layout_height="100sp"
+            android:scaleType="centerCrop"
+            android:contentDescription="@string/Bilbao"
+            android:src="@drawable/bilbao" />
+
+        <TextView
+            android:id="@+id/txtLugarBilbao"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_toEndOf="@id/ImgBilbao"
+            android:text="@string/Bilbao"
+            android:textColor="#FFFFFF"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/txtPuntuacionBilbao"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/txtLugarBilbao"
+            android:layout_marginStart="16dp"
+            android:layout_toEndOf="@id/ImgBilbao"
+            android:text="@string/Puntuacion"
+            android:textColor="#FFFFFF"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/txtNumPuntuacionBilbao"
+            android:layout_width="62sp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/txtLugarBilbao"
+            android:layout_marginStart="103sp"
+            android:layout_marginTop="2sp"
+            android:layout_toEndOf="@id/ImgBilbao"
+            android:text="@string/contadorPuntuacion"
+            android:textColor="#FFFFFF"
+            android:textSize="14sp" />
+
+        <Button
+            android:id="@+id/btnBilbao"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="53sp"
+            android:layout_marginEnd="27sp"
+            android:text="@string/BilbaoIkusi" />
+
+    </RelativeLayout>
+    <!-- Donosti -->
+
+    <!-- Gazteiz -->
+
+    <RelativeLayout
+        android:id="@+id/relativeLayout2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="16sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/relativeLayout"
+        app:layout_constraintVertical_bias="0.124">
+
+        <ImageView
+            android:id="@+id/ImgGazteiz"
+            android:layout_width="100sp"
+            android:layout_height="100sp"
+            android:contentDescription="@string/Donosti"
+            android:scaleType="centerCrop"
+            android:src="@drawable/vitoria" />
+
+        <TextView
+            android:id="@+id/txtLugarGazteiz"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16sp"
+            android:layout_toEndOf="@id/ImgGazteiz"
+            android:text="@string/Gazteiz"
+            android:textColor="#FFFFFF"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/txtPuntuacionGazteiz"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/txtLugarGazteiz"
+            android:layout_marginStart="16dp"
+            android:layout_toEndOf="@id/ImgGazteiz"
+            android:text="@string/Puntuacion"
+            android:textColor="#FFFFFF"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/txtNumPuntuacionGazteiz"
+            android:layout_width="62sp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/txtLugarGazteiz"
+            android:layout_marginStart="103dp"
+            android:layout_marginTop="2dp"
+            android:layout_toEndOf="@id/ImgGazteiz"
+            android:text="@string/contadorPuntuacion"
+            android:textColor="#FFFFFF"
+            android:textSize="14sp" />
+
+        <Button
+            android:id="@+id/btnGazteiz"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="52sp"
+            android:layout_marginEnd="24sp"
+            android:text="@string/GazteizIkusi" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/relativeLayout3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="16dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/relativeLayout2"
+        app:layout_constraintVertical_bias="0.233">
+
+        <ImageView
+            android:id="@+id/ImgIruna"
+            android:layout_width="100sp"
+            android:layout_height="100sp"
+            android:contentDescription="@string/Iruna"
+            android:scaleType="centerCrop"
+            android:src="@drawable/pamplona" />
+
+        <TextView
+            android:id="@+id/txtLugarIruna"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_toEndOf="@id/ImgIruna"
+            android:text="@string/Iruna"
+            android:textColor="#FFFFFF"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/txtPuntuacionIruna"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/txtLugarIruna"
+            android:layout_marginStart="16dp"
+            android:layout_toEndOf="@id/ImgIruna"
+            android:text="@string/Puntuacion"
+            android:textColor="#FFFFFF"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/txtNumPuntuacionIruna"
+            android:layout_width="62sp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/txtLugarIruna"
+            android:layout_marginStart="103sp"
+            android:layout_marginTop="2sp"
+            android:layout_toEndOf="@id/ImgIruna"
+            android:text="@string/contadorPuntuacion"
+            android:textColor="#FFFFFF"
+            android:textSize="14sp" />
+
+        <Button
+            android:id="@+id/btnIruna"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="49sp"
+            android:layout_marginEnd="28sp"
+            android:text="@string/IrunaIkusi" />
+
+    </RelativeLayout>
+
+    <!-- Pamplona -->
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="16dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/relativeLayout3"
+        app:layout_constraintVertical_bias="0.942">
+
+        <ImageView
+            android:id="@+id/ImgDonosti"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:contentDescription="@string/Donosti"
+            android:scaleType="centerCrop"
+            android:src="@drawable/donostia" />
+
+        <TextView
+            android:id="@+id/txtLugarDonosti"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_toEndOf="@id/ImgDonosti"
+            android:text="@string/Donosti"
+            android:textColor="#FFFFFF"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/txtPuntuacionDonosti"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/txtLugarDonosti"
+            android:layout_marginStart="16dp"
+            android:layout_toEndOf="@id/ImgDonosti"
+            android:text="@string/Puntuacion"
+            android:textColor="#FFFFFF"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/txtNumPuntuacionDonosti"
+            android:layout_width="62sp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/txtLugarDonosti"
+            android:layout_marginStart="103dp"
+            android:layout_marginTop="2dp"
+            android:layout_toEndOf="@id/ImgDonosti"
+            android:text="@string/contadorPuntuacion"
+            android:textColor="#FFFFFF"
+            android:textSize="14sp" />
+
+        <Button
+            android:id="@+id/btnDonostia"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="58sp"
+            android:layout_marginEnd="19sp"
+            android:text="@string/DonostiaIkusi" />
+
+    </RelativeLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

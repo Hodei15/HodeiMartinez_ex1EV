@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">HodeiMartinez_ex1EV</string>
+    <string name="Bilbao">Bilbao</string>
+    <string name="BilbaoIkusi">Bilbao Ikusi</string>
+    <string name="Donosti">Donostia</string>
+    <string name="DonostiaIkusi">Donostia Ikusi</string>
+    <string name="Gazteiz">Gazteiz</string>
+    <string name="GazteizIkusi">Gazteiz Ikusi</string>
+    <string name="Iruna">Iruna</string>
+    <string name="IrunaIkusi">Iruna Ikusi</string>
+    <string name="Puntuacion">Puntuacion</string>
+    <string name="contadorPuntuacion">0.0</string>
+    <string name="logoa">App Logoa</string>
+    <string name="Puntuar">Puntuar</string>
+    <string name="Volver">Volver</string>
+</resources>
